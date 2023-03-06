@@ -14,3 +14,6 @@ A new dashboard page is created under Store->Sendy Subscribing where a Sendy API
 To comply with GDPR rules, you can add a checkbox attribute with 'sendy_checkout_subscribe' as attribute handle and add it to the 'Other Customer Choices' Group. If this attribue exists, the customers data will only be added to a sendy list, if the checkbox is checked at checkout.
 
 To add customers to specific Sendy lists for specific products, create a text product attribute with the handle 'sendy_list_id', then enter a list ID when editing a product. A list ID is found under the Sendy settings, list name and defaults section of a list.
+
+## Credits
+This add-on was inspired by the community_store_mailchimp_subscribe (https://github.com/concretecms-community-store/community_store_mailchimp_subscribing) by https://github.com/MrKarlDilkington. Thank you!
