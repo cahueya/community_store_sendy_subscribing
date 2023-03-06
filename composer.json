@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jacobbennett/sendyphp": "^2.0"
+    }
+}

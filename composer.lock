@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "77216adeb8c1218e4f4e9c034dddfb66",
+    "packages": [
+        {
+            "name": "jacobbennett/sendyphp",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JacobBennett/SendyPHP.git",
+                "reference": "590ae66557d625cf4732b9a3d302a14df2234bb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JacobBennett/SendyPHP/zipball/590ae66557d625cf4732b9a3d302a14df2234bb7",
+                "reference": "590ae66557d625cf4732b9a3d302a14df2234bb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SendyPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Bennett",
+                    "email": "me@jakebennett.net",
+                    "homepage": "http://jakebennett.net"
+                }
+            ],
+            "description": "A PHP Library for interfacing with the Sendy newsletter system (http://sendy.co)",
+            "keywords": [
+                "Sendy",
+                "newsletter"
+            ],
+            "support": {
+                "issues": "https://github.com/JacobBennett/SendyPHP/issues",
+                "source": "https://github.com/JacobBennett/SendyPHP/tree/v2.0"
+            },
+            "time": "2021-01-22T18:57:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
